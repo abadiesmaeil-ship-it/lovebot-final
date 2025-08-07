@@ -1,0 +1,16 @@
+{
+  "name": "lovebot-final",
+  "version": "1.0.0",
+  "description": "A Telegram love analysis bot using OpenAI and multi-language support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "abadiesmaeil",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.61.0",
+    "openai": "^4.0.0"
+  }
+}
