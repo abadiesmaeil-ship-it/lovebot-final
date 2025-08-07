@@ -85,3 +85,12 @@ module.exports = {
   handleMessage,
   sessions
 };
+// بعد از ارسال تحلیل به کاربر
+const allData = JSON.parse(fs.readFileSync("data.json", "utf-8"));
+allData.push({
+  partner: session.partner,
+  language: session.language,
+  answers: session.answers,
+  date: new Date().toISOString()
+});
+fs.writeFileSync("data.json", JSON.stringify(allData, null, 2));
