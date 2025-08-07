@@ -27,3 +27,34 @@ function generatePrompt(answers, lang) {
 }
 
 module.exports = { sendQuestion, generatePrompt };
+function generateAnalysisHtml(partnerUsername, userChatId, answers, analysisText) {
+  const answerList = answers.map((a, i) =>
+    `<li><strong>${i + 1}. ${a.question}</strong><br>پاسخ: ${a.answer}</li>`).join("\n");
+
+  return `
+    <!DOCTYPE html>
+    <html lang="fa">
+    <head>
+      <meta charset="UTF-8">
+      <title>تحلیل رابطه</title>
+      <style>
+        body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 2rem; background: #f9f9f9; }
+        h2 { color: #444; }
+        ul { line-height: 1.6; }
+        .analysis { margin-top: 2rem; padding: 1rem; background: #fffbe6; border: 1px solid #ddd; }
+      </style>
+    </head>
+    <body>
+      <h2>پاسخ‌ها</h2>
+      <ul>${answerList}</ul>
+
+      <div class="analysis">
+        <h2>تحلیل</h2>
+        <p>${analysisText.replace(/\n/g, "<br>")}</p>
+      </div>
+    </body>
+    </html>
+  `;
+}
+
+module.exports = { generateAnalysisHtml };
