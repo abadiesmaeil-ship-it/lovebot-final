@@ -130,7 +130,7 @@ bot.on("message", async (msg) => {
       const filePath = path.join(__dirname, "analysis", filename);
       fs.writeFileSync(filePath, html);
 
-      const link = `https://yourdomain.com/analysis/${filename}`;
+      https://lovebot-final.onrender.com/analysis/analysis_12345678_user.html
 
       bot.sendMessage(
         chatId,
