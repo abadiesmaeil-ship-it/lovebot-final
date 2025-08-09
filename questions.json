@@ -2,43 +2,43 @@
   "fa": {
     "section1": [
       {
-        "id": "rel_q1",
-        "q": "از ۱ تا ۱۰، به رابطه‌تون چه نمره‌ای می‌دی؟",
+        "id": "r1",
+        "q": "از ۱ تا ۱۰ به رابطه‌تان چند می‌دهی؟",
         "type": "scale",
         "scoreMode": "scale10",
         "options": ["1","2","3","4","5","6","7","8","9","10"]
       },
       {
-        "id": "rel_q2",
-        "q": "از ۱ تا ۱۰، پارتنرت چقدر برات مهم و دوست‌داشتنیه؟",
+        "id": "r2",
+        "q": "از ۱ تا ۱۰ پارتنرت برایت چقدر مهم و دوست‌داشتنی است؟",
         "type": "scale",
         "scoreMode": "scale10",
         "options": ["1","2","3","4","5","6","7","8","9","10"]
       },
       {
-        "id": "rel_q3",
-        "q": "از ۱ تا ۱۰، از سکس با پارتنرت چقدر راضی هستی؟",
+        "id": "r3",
+        "q": "از ۱ تا ۱۰ از کیفیت سکس با پارتنرت چقدر راضی هستی؟",
         "type": "scale",
         "scoreMode": "scale10",
         "options": ["1","2","3","4","5","6","7","8","9","10"]
       },
       {
-        "id": "rel_q4",
-        "q": "وقتی تو رابطهٔ جنسی با پارتنرت بودی، تا حالا شخص دیگه‌ای رو تصور کردی؟",
+        "id": "r4",
+        "q": "آیا تا حالا هنگام سکس با پارتنرت، شخص دیگری را تصور کرده‌ای؟",
         "type": "yesno",
         "options": ["بله","خیر"],
         "score": { "yes": -5, "no": 5 }
       },
       {
-        "id": "rel_q5",
-        "q": "از وقتی با پارتنر فعلی‌ات هستی، به پارتنر قبلیت پیام یا تماس دادی؟",
+        "id": "r5",
+        "q": "از شروع رابطه، با پارتنرِ قبلی‌ات تماس یا پیام داشته‌ای؟",
         "type": "yesno",
         "options": ["بله","خیر"],
         "score": { "yes": -5, "no": 5 }
       },
       {
-        "id": "rel_q6",
-        "q": "تا حالا به پارتنرت از نظر عاطفی یا جنسی خیانت کردی؟",
+        "id": "r6",
+        "q": "به پارتنرت خیانت (عاطفی یا جنسی) کرده‌ای؟",
         "type": "yesno",
         "options": ["بله","خیر"],
         "score": { "yes": -5, "no": 5 }
@@ -46,88 +46,88 @@
     ],
     "section2": [
       {
-        "id": "p_q1",
-        "q": "غذای رستورانی رو ترجیح می‌دی یا خانگی؟",
+        "id": "p1",
+        "q": "کدام را ترجیح می‌دهی؟ غذای خانگی یا رستورانی؟",
         "type": "choice",
         "options": ["خانگی","رستورانی"]
       },
       {
-        "id": "p_q2",
-        "q": "از بین غذاهای این ملیت‌ها کدوم رو بیشتر دوست داری؟",
+        "id": "p2",
+        "q": "کدام سبک غذایی را بیشتر دوست داری؟",
         "type": "choice",
         "options": ["چینی","ایتالیایی","عربی","ایرانی"]
       },
       {
-        "id": "p_q3_ir",
-        "q": "کدوم غذای ایرانی رو ترجیح می‌دی؟",
+        "id": "p3",
+        "q": "کدام غذای ایرانی را ترجیح می‌دهی؟",
         "type": "choice",
         "options": ["قورمه‌سبزی","باقالی‌پلو با ماهیچه","زرشک‌پلو","ماهی","قیمه"]
       },
       {
-        "id": "p_q4_ar",
-        "q": "کدوم غذای عربی رو ترجیح می‌دی؟",
+        "id": "p4",
+        "q": "کدام غذای عربی را ترجیح می‌دهی؟",
         "type": "choice",
-        "options": ["معجنات","شاورما","دجاج مشوی (مرغ بریونی)","کبسه لحم (گوشت)"]
+        "options": ["معجنات","شاورما","دجاج مشوی","کبسه لحم"]
       },
       {
-        "id": "p_q5_it",
-        "q": "کدوم غذای ایتالیایی رو ترجیح می‌دی؟",
+        "id": "p5",
+        "q": "کدام غذای ایتالیایی را ترجیح می‌دهی؟",
         "type": "choice",
-        "options": ["پاستا چیکن آلفردو","پیتزا مارگاریتا","پاستا با سس پِستو","لازانیـا"]
+        "options": ["پاستا چیکن آلفردو","پیتزا مارگاریتا","پاستا با سس پستو","لازانیا"]
       },
       {
-        "id": "p_q6_as",
-        "q": "کدوم غذای چینی/آسیایی رو ترجیح می‌دی؟",
+        "id": "p6",
+        "q": "کدام غذای چینی/آسیایی را ترجیح می‌دهی؟",
         "type": "choice",
-        "options": ["سوشی","اندومی","هات‌پات"]
+        "options": ["سوشی","ایندومی","هات‌پات"]
       }
     ],
     "section2H": [
       {
-        "id": "h_q7",
-        "q": "اولین نفری که «دوستت دارم» گفت کدوم‌تون بود؟",
+        "id": "h7",
+        "q": "کدام‌یک از شما دو نفر اول «دوستت دارم» را گفت؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q8",
-        "q": "کدوم‌تون زودتر عصبانی می‌شه؟",
+        "id": "h8",
+        "q": "کدام‌یک از شما سریع‌تر عصبانی می‌شود؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q9",
-        "q": "معمولاً کی اول برای آشتی پیش‌قدم می‌شه؟",
+        "id": "h9",
+        "q": "وقتی قهر می‌کنید، معمولاً چه کسی اول آشتی می‌کند؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q10",
-        "q": "کدوم‌تون بیشتر غذا درست می‌کنه؟",
+        "id": "h10",
+        "q": "کدام‌یک از شما بیشتر غذا درست می‌کند؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q11",
-        "q": "کدوم‌تون بیشتر ظرف می‌شوره؟",
+        "id": "h11",
+        "q": "کدام‌یک از شما بیشتر ظرف می‌شوید؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q12",
-        "q": "کدوم‌تون قلب مهربون‌تری داره؟",
+        "id": "h12",
+        "q": "کدام‌یک از شما قلب مهربان‌تری دارد؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q13",
-        "q": "کدوم‌تون احساسی‌تر رفتار می‌کنه؟",
+        "id": "h13",
+        "q": "کدام‌یک از شما احساساتی‌تر رفتار می‌کند؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
@@ -135,45 +135,51 @@
     ],
     "section3": [
       {
-        "id": "g_q1",
-        "q": "به نظر تو پارتنرت کدام را ترجیح می‌دهد: خانگی یا رستورانی؟",
+        "id": "g1",
+        "q": "به نظرت پارتنرت غذای خانگی را دوست دارد یا رستورانی؟",
         "type": "guess",
-        "refId": "p_q1",
+        "refId": "p1",
+        "options": ["خانگی","رستورانی"],
         "correctScore": 5
       },
       {
-        "id": "g_q2",
-        "q": "به نظر تو پارتنرت کدام سبک غذایی را بیشتر دوست دارد؟",
+        "id": "g2",
+        "q": "به نظرت پارتنرت کدام سبک غذایی را بیشتر دوست دارد؟",
         "type": "guess",
-        "refId": "p_q2",
+        "refId": "p2",
+        "options": ["چینی","ایتالیایی","عربی","ایرانی"],
         "correctScore": 5
       },
       {
-        "id": "g_q3_ir",
-        "q": "به نظر تو پارتنرت کدام غذای ایرانی را ترجیح می‌دهد؟",
+        "id": "g3",
+        "q": "به نظرت پارتنرت کدام غذای ایرانی را ترجیح می‌دهد؟",
         "type": "guess",
-        "refId": "p_q3_ir",
+        "refId": "p3",
+        "options": ["قورمه‌سبزی","باقالی‌پلو با ماهیچه","زرشک‌پلو","ماهی","قیمه"],
         "correctScore": 5
       },
       {
-        "id": "g_q4_ar",
-        "q": "به نظر تو پارتنرت کدام غذای عربی را ترجیح می‌دهد؟",
+        "id": "g4",
+        "q": "به نظرت پارتنرت کدام غذای عربی را ترجیح می‌دهد؟",
         "type": "guess",
-        "refId": "p_q4_ar",
+        "refId": "p4",
+        "options": ["معجنات","شاورما","دجاج مشوی","کبسه لحم"],
         "correctScore": 5
       },
       {
-        "id": "g_q5_it",
-        "q": "به نظر تو پارتنرت کدام غذای ایتالیایی را ترجیح می‌دهد؟",
+        "id": "g5",
+        "q": "به نظرت پارتنرت کدام غذای ایتالیایی را ترجیح می‌دهد؟",
         "type": "guess",
-        "refId": "p_q5_it",
+        "refId": "p5",
+        "options": ["پاستا چیکن آلفردو","پیتزا مارگاریتا","پاستا با سس پستو","لازانیا"],
         "correctScore": 5
       },
       {
-        "id": "g_q6_as",
-        "q": "به نظر تو پارتنرت کدام غذای چینی/آسیایی را ترجیح می‌دهد؟",
+        "id": "g6",
+        "q": "به نظرت پارتنرت کدام غذای چینی/آسیایی را ترجیح می‌دهد؟",
         "type": "guess",
-        "refId": "p_q6_as",
+        "refId": "p6",
+        "options": ["سوشی","ایندومی","هات‌پات"],
         "correctScore": 5
       }
     ]
@@ -181,43 +187,43 @@
   "ar": {
     "section1": [
       {
-        "id": "rel_q1",
-        "q": "من ١ إلى ١٠، كم تُقيّم علاقتكما؟",
+        "id": "r1",
+        "q": "من ١ إلى ١٠، كم تعطي علاقتكما من تقييم؟",
         "type": "scale",
         "scoreMode": "scale10",
         "options": ["1","2","3","4","5","6","7","8","9","10"]
       },
       {
-        "id": "rel_q2",
-        "q": "من ١ إلى ١٠، ما مدى محبة شريكك وأهميته لديك؟",
+        "id": "r2",
+        "q": "من ١ إلى ١٠، ما مدى محبة وأهمية شريكك لديك؟",
         "type": "scale",
         "scoreMode": "scale10",
         "options": ["1","2","3","4","5","6","7","8","9","10"]
       },
       {
-        "id": "rel_q3",
-        "q": "من ١ إلى ١٠، ما مدى رضاك عن علاقة الجنس مع شريكك؟",
+        "id": "r3",
+        "q": "من ١ إلى ١٠، ما مدى رضاك عن جودة علاقة الجنس مع شريكك؟",
         "type": "scale",
         "scoreMode": "scale10",
         "options": ["1","2","3","4","5","6","7","8","9","10"]
       },
       {
-        "id": "rel_q4",
-        "q": "أثناء علاقة الجنس مع شريكك، هل سبق أن تخيّلت شخصًا آخر؟",
+        "id": "r4",
+        "q": "هل سبق أن تخيلت شخصاً آخر أثناء علاقة الجنس مع شريكك؟",
         "type": "yesno",
         "options": ["نعم","لا"],
         "score": { "yes": -5, "no": 5 }
       },
       {
-        "id": "rel_q5",
-        "q": "منذ بداية علاقتك الحالية، هل تواصلت مع شريكك السابق (رسالة/اتصال)؟",
+        "id": "r5",
+        "q": "منذ بداية العلاقة، هل تواصلت مع شريكك السابق؟",
         "type": "yesno",
         "options": ["نعم","لا"],
         "score": { "yes": -5, "no": 5 }
       },
       {
-        "id": "rel_q6",
-        "q": "هل سبق أن خنته عاطفيًا أو جنسيًا؟",
+        "id": "r6",
+        "q": "هل خنت شريكك مشاعرياً أو جنسياً؟",
         "type": "yesno",
         "options": ["نعم","لا"],
         "score": { "yes": -5, "no": 5 }
@@ -225,88 +231,88 @@
     ],
     "section2": [
       {
-        "id": "p_q1",
-        "q": "تُفضّل الطعام المنزلي أم طعام المطاعم؟",
+        "id": "p1",
+        "q": "تفضّل الطعام المنزلي أم المطاعم؟",
         "type": "choice",
         "options": ["منزلي","مطاعم"]
       },
       {
-        "id": "p_q2",
-        "q": "أي المأكولات القومية تُفضّل أكثر؟",
+        "id": "p2",
+        "q": "أي مطبخ تفضّل أكثر؟",
         "type": "choice",
-        "options": ["الصينية","الإيطالية","العربية","الإيرانية"]
+        "options": ["صيني","إيطالي","عربي","إيراني"]
       },
       {
-        "id": "p_q3_ir",
-        "q": "أي طبق إيراني تُفضّل؟",
+        "id": "p3",
+        "q": "أي طبق إيراني تفضّل؟",
         "type": "choice",
-        "options": ["قورمه سبزي","باقالي بولو مع لحم الخروف","زرشك بولو","سمك","قيمه"]
+        "options": ["قورمه سبزي","باقالي بلو مع ماهيتشه","زرشك بلو","سمك","قيمه"]
       },
       {
-        "id": "p_q4_ar",
-        "q": "أي طبق عربي تُفضّل؟",
+        "id": "p4",
+        "q": "أي طبق عربي تفضّل؟",
         "type": "choice",
         "options": ["معجنات","شاورما","دجاج مشوي","كبسة لحم"]
       },
       {
-        "id": "p_q5_it",
-        "q": "أي طبق إيطالي تُفضّل؟",
+        "id": "p5",
+        "q": "أي طبق إيطالي تفضّل؟",
         "type": "choice",
-        "options": ["باستا تشيكن ألفريدو","بيتزا مارغريتا","باستا بصلصة البيستو","لازانيا"]
+        "options": ["باستا دجاج ألفريدو","بيتزا مارغريتا","باستا بصلصة البيستو","لازانيا"]
       },
       {
-        "id": "p_q6_as",
-        "q": "أي طبق صيني/آسيوي تُفضّل؟",
+        "id": "p6",
+        "q": "أي طبق صيني/آسيوي تفضّل؟",
         "type": "choice",
         "options": ["سوشي","إندومي","هوت بوت"]
       }
     ],
     "section2H": [
       {
-        "id": "h_q7",
-        "q": "من قال «أحبك» أولاً؟",
+        "id": "h7",
+        "q": "من منكما قال «أحبك» أولاً؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q8",
-        "q": "من يغضب أسرع؟",
+        "id": "h8",
+        "q": "من منكما يغضب بسرعة أكثر؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q9",
-        "q": "من يبادر بالصلح غالبًا؟",
+        "id": "h9",
+        "q": "عند الزعل، من يبادر بالصلح عادةً؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q10",
-        "q": "من يطبخ أكثر؟",
+        "id": "h10",
+        "q": "من منكما يطبخ أكثر؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q11",
-        "q": "من يغسل الصحون أكثر؟",
+        "id": "h11",
+        "q": "من منكما يغسل الصحون أكثر؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q12",
-        "q": "من لديه قلب أطيب؟",
+        "id": "h12",
+        "q": "من منكما يملك قلباً أطيب؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q13",
-        "q": "من يتصرف بمشاعر أكثر؟",
+        "id": "h13",
+        "q": "من منكما يتصرف بعاطفية أكثر؟",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
@@ -314,45 +320,51 @@
     ],
     "section3": [
       {
-        "id": "g_q1",
-        "q": "برأيك، ماذا يُفضّل شريكك: منزلي أم مطاعم؟",
+        "id": "g1",
+        "q": "هل يفضّل شريكك الطعام المنزلي أم المطاعم؟",
         "type": "guess",
-        "refId": "p_q1",
+        "refId": "p1",
+        "options": ["منزلي","مطاعم"],
         "correctScore": 5
       },
       {
-        "id": "g_q2",
-        "q": "برأيك، أي مطبخ قومي يُفضّله شريكك أكثر؟",
+        "id": "g2",
+        "q": "أي مطبخ يفضّله شريكك أكثر؟",
         "type": "guess",
-        "refId": "p_q2",
+        "refId": "p2",
+        "options": ["صيني","إيطالي","عربي","إيراني"],
         "correctScore": 5
       },
       {
-        "id": "g_q3_ir",
-        "q": "برأيك، أي طبق إيراني يُفضّله شريكك؟",
+        "id": "g3",
+        "q": "أي طبق إيراني يفضّله شريكك؟",
         "type": "guess",
-        "refId": "p_q3_ir",
+        "refId": "p3",
+        "options": ["قورمه سبزي","باقالي بلو مع ماهيتشه","زرشك بلو","سمك","قيمه"],
         "correctScore": 5
       },
       {
-        "id": "g_q4_ar",
-        "q": "برأيك، أي طبق عربي يُفضّله شريكك؟",
+        "id": "g4",
+        "q": "أي طبق عربي يفضّله شريكك؟",
         "type": "guess",
-        "refId": "p_q4_ar",
+        "refId": "p4",
+        "options": ["معجنات","شاورما","دجاج مشوي","كبسة لحم"],
         "correctScore": 5
       },
       {
-        "id": "g_q5_it",
-        "q": "برأيك، أي طبق إيطالي يُفضّله شريكك؟",
+        "id": "g5",
+        "q": "أي طبق إيطالي يفضّله شريكك؟",
         "type": "guess",
-        "refId": "p_q5_it",
+        "refId": "p5",
+        "options": ["باستا دجاج ألفريدو","بيتزا مارغريتا","باستا بصلصة البيستو","لازانيا"],
         "correctScore": 5
       },
       {
-        "id": "g_q6_as",
-        "q": "برأيك، أي طبق صيني/آسيوي يُفضّله شريكك؟",
+        "id": "g6",
+        "q": "أي طبق صيني/آسيوي يفضّله شريكك؟",
         "type": "guess",
-        "refId": "p_q6_as",
+        "refId": "p6",
+        "options": ["سوشي","إندومي","هوت بوت"],
         "correctScore": 5
       }
     ]
@@ -360,43 +372,43 @@
   "en": {
     "section1": [
       {
-        "id": "rel_q1",
+        "id": "r1",
         "q": "From 1 to 10, how would you rate your relationship?",
         "type": "scale",
         "scoreMode": "scale10",
         "options": ["1","2","3","4","5","6","7","8","9","10"]
       },
       {
-        "id": "rel_q2",
+        "id": "r2",
         "q": "From 1 to 10, how important and lovable is your partner to you?",
         "type": "scale",
         "scoreMode": "scale10",
         "options": ["1","2","3","4","5","6","7","8","9","10"]
       },
       {
-        "id": "rel_q3",
-        "q": "From 1 to 10, how satisfied are you with sex with your partner?",
+        "id": "r3",
+        "q": "From 1 to 10, how satisfied are you with sexual quality?",
         "type": "scale",
         "scoreMode": "scale10",
         "options": ["1","2","3","4","5","6","7","8","9","10"]
       },
       {
-        "id": "rel_q4",
-        "q": "During sex with your partner, have you ever imagined someone else?",
+        "id": "r4",
+        "q": "Have you ever imagined someone else during sex with your partner?",
         "type": "yesno",
         "options": ["Yes","No"],
         "score": { "yes": -5, "no": 5 }
       },
       {
-        "id": "rel_q5",
-        "q": "Since the start of this relationship, have you contacted your ex (message/call)?",
+        "id": "r5",
+        "q": "Since the relationship started, have you contacted your ex?",
         "type": "yesno",
         "options": ["Yes","No"],
         "score": { "yes": -5, "no": 5 }
       },
       {
-        "id": "rel_q6",
-        "q": "Have you ever cheated emotionally or sexually on your partner?",
+        "id": "r6",
+        "q": "Have you cheated on your partner emotionally or sexually?",
         "type": "yesno",
         "options": ["Yes","No"],
         "score": { "yes": -5, "no": 5 }
@@ -404,37 +416,37 @@
     ],
     "section2": [
       {
-        "id": "p_q1",
-        "q": "Do you prefer home-cooked food or restaurant food?",
+        "id": "p1",
+        "q": "Do you prefer home-cooked or restaurant food?",
         "type": "choice",
-        "options": ["Home-cooked","Restaurant"]
+        "options": ["Home","Restaurant"]
       },
       {
-        "id": "p_q2",
-        "q": "Which cuisine do you prefer most?",
+        "id": "p2",
+        "q": "Which cuisine do you prefer?",
         "type": "choice",
         "options": ["Chinese","Italian","Arabic","Iranian"]
       },
       {
-        "id": "p_q3_ir",
+        "id": "p3",
         "q": "Which Iranian dish do you prefer?",
         "type": "choice",
-        "options": ["Ghormeh Sabzi","Baghali Polo with Lamb Shank","Zereshk Polo","Fish","Gheymeh"]
+        "options": ["Ghormeh Sabzi","Baghali Polo (Lamb Shank)","Zereshk Polo","Fish","Gheymeh"]
       },
       {
-        "id": "p_q4_ar",
+        "id": "p4",
         "q": "Which Arabic dish do you prefer?",
         "type": "choice",
-        "options": ["Ma'ajanat (Pastries)","Shawarma","Grilled Chicken","Kabsa (Lamb)"]
+        "options": ["Muajanat","Shawarma","Grilled Chicken","Kabsa (Beef)"]
       },
       {
-        "id": "p_q5_it",
+        "id": "p5",
         "q": "Which Italian dish do you prefer?",
         "type": "choice",
-        "options": ["Chicken Alfredo Pasta","Margherita Pizza","Pasta with Pesto","Lasagna"]
+        "options": ["Chicken Alfredo Pasta","Margherita Pizza","Pesto Pasta","Lasagna"]
       },
       {
-        "id": "p_q6_as",
+        "id": "p6",
         "q": "Which Chinese/Asian dish do you prefer?",
         "type": "choice",
         "options": ["Sushi","Indomie","Hot Pot"]
@@ -442,50 +454,50 @@
     ],
     "section2H": [
       {
-        "id": "h_q7",
+        "id": "h7",
         "q": "Who said “I love you” first?",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q8",
+        "id": "h8",
         "q": "Who gets angry faster?",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q9",
-        "q": "Who usually initiates making up after a fight?",
+        "id": "h9",
+        "q": "Who initiates making peace after conflicts?",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q10",
+        "id": "h10",
         "q": "Who cooks more often?",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q11",
+        "id": "h11",
         "q": "Who washes the dishes more?",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q12",
+        "id": "h12",
         "q": "Who has the kinder heart?",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
       },
       {
-        "id": "h_q13",
-        "q": "Who behaves more emotionally?",
+        "id": "h13",
+        "q": "Who is more emotional?",
         "type": "pairChoice",
         "optionsDynamic": "AorB",
         "matchScore": 5
@@ -493,45 +505,51 @@
     ],
     "section3": [
       {
-        "id": "g_q1",
-        "q": "What do you think your partner prefers: home-cooked or restaurant?",
+        "id": "g1",
+        "q": "Does your partner prefer home-cooked or restaurant food?",
         "type": "guess",
-        "refId": "p_q1",
+        "refId": "p1",
+        "options": ["Home","Restaurant"],
         "correctScore": 5
       },
       {
-        "id": "g_q2",
-        "q": "Which cuisine do you think your partner prefers most?",
+        "id": "g2",
+        "q": "Which cuisine does your partner prefer?",
         "type": "guess",
-        "refId": "p_q2",
+        "refId": "p2",
+        "options": ["Chinese","Italian","Arabic","Iranian"],
         "correctScore": 5
       },
       {
-        "id": "g_q3_ir",
-        "q": "Which Iranian dish do you think your partner prefers?",
+        "id": "g3",
+        "q": "Which Iranian dish would your partner pick?",
         "type": "guess",
-        "refId": "p_q3_ir",
+        "refId": "p3",
+        "options": ["Ghormeh Sabzi","Baghali Polo (Lamb Shank)","Zereshk Polo","Fish","Gheymeh"],
         "correctScore": 5
       },
       {
-        "id": "g_q4_ar",
-        "q": "Which Arabic dish do you think your partner prefers?",
+        "id": "g4",
+        "q": "Which Arabic dish would your partner pick?",
         "type": "guess",
-        "refId": "p_q4_ar",
+        "refId": "p4",
+        "options": ["Muajanat","Shawarma","Grilled Chicken","Kabsa (Beef)"],
         "correctScore": 5
       },
       {
-        "id": "g_q5_it",
-        "q": "Which Italian dish do you think your partner prefers?",
+        "id": "g5",
+        "q": "Which Italian dish would your partner pick?",
         "type": "guess",
-        "refId": "p_q5_it",
+        "refId": "p5",
+        "options": ["Chicken Alfredo Pasta","Margherita Pizza","Pesto Pasta","Lasagna"],
         "correctScore": 5
       },
       {
-        "id": "g_q6_as",
-        "q": "Which Chinese/Asian dish do you think your partner prefers?",
+        "id": "g6",
+        "q": "Which Chinese/Asian dish would your partner pick?",
         "type": "guess",
-        "refId": "p_q6_as",
+        "refId": "p6",
+        "options": ["Sushi","Indomie","Hot Pot"],
         "correctScore": 5
       }
     ]
